@@ -25,13 +25,10 @@ Vagrantfile
 *.mmdb
 
 # Generated fonts
-vj4/ui/misc/.iconfont
-
-# Generated constants
-vj4/constant
+er/ui/misc/.iconfont
 
 # Generated locales
-vj4/ui/static/locale
+er/ui/static/locale
 
 # Webpack Stats
 .webpackStats.json

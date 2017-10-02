@@ -88,5 +88,5 @@ export default function transformConstant(filePath) {
 }
 
 transformConstant.getPackageContent = function(modules) {
-  return modules.map(m => `from vj4.constant import ${m}`).join('\n') + '\n';
+  return modules.map(m => `from er.constant import ${m}`).join('\n') + '\n';
 }

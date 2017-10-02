@@ -1,24 +1,22 @@
 import setuptools
 
-setuptools.setup(name='vj4',
-                 version='4.0',
-                 author='Vijos',
-                 author_email='me@iceboy.org',
-                 description='Vijos Web Server',
+setuptools.setup(name='er',
+                 version='0.0.1',
+                 author='mfmfmf',
+                 author_email='twd2@163.com',
+                 description='Event Registration Web Server',
                  license='AGPL-3.0',
-                 keywords='vijos online judge web',
-                 url='https://vijos.org/',
+                 keywords='event online registration web',
+                 url='?',
                  packages=[
-                   'vj4',
-                   'vj4.handler',
-                   'vj4.model',
-                   'vj4.model.adaptor',
-                   'vj4.pipeline',
-                   'vj4.service',
-                   'vj4.util',
+                   'er',
+                   'er.handler',
+                   'er.model',
+                   'er.service',
+                   'er.util',
                  ],
                  package_data={
-                   'vj4': ['locale/*.csv', 'ui/templates/*', '.uibuild/*'],
+                   'er': ['locale/*.csv', 'ui/templates/*', '.uibuild/*'],
                  },
                  install_requires=open('requirements.txt').readlines(),
-                 test_suite='vj4.test')
+                 test_suite='er.test')

@@ -12,11 +12,11 @@ import OptimizeCssAssetsPlugin from 'optimize-css-assets-webpack-plugin';
 import ExtractTextPlugin from 'extract-text-webpack-plugin';
 import CopyWebpackPlugin from 'copy-webpack-plugin';
 
-const extractProjectCSS = new ExtractTextPlugin({ filename: 'vj4.css?[sha1:contenthash:hex:10]', allChunks: true });
+const extractProjectCSS = new ExtractTextPlugin({ filename: 'er.css?[sha1:contenthash:hex:10]', allChunks: true });
 const extractVendorCSS = new ExtractTextPlugin({ filename: 'vendors.css?[sha1:contenthash:hex:10]', allChunks: true });
 
 const beautifyOutputUrl = mapWebpackUrlPrefix([
-  { prefix: 'vj4/ui/',                  replace: 'ui/' },
+  { prefix: 'er/ui/',                  replace: 'ui/' },
   { prefix: 'node_modules/katex/dist/', replace: 'katex/' },
   { prefix: 'ui/misc/.iconfont',        replace: 'ui/iconfont' },
 ]);
@@ -26,7 +26,7 @@ export default function (env = {}) {
     return {
       loader: 'eslint-loader',
       options: {
-        configFile: root('vj4/ui/.eslintrc.js'),
+        configFile: root('er/ui/.eslintrc.js'),
       },
     };
   }
@@ -84,13 +84,13 @@ export default function (env = {}) {
   const config = {
     bail: true,
     profile: true,
-    context: root('vj4/ui'),
+    context: root('er/ui'),
     devtool: env.production ? 'source-map' : false,
     entry: {
-      vj4: './Entry.js',
+      er: './Entry.js',
     },
     output: {
-      path: root('vj4/.uibuild'),
+      path: root('er/.uibuild'),
       publicPath: '/',    // overwrite in entry.js
       hashFunction: 'sha1',
       hashDigest: 'hex',
@@ -103,7 +103,7 @@ export default function (env = {}) {
         root('node_modules'),
       ],
       alias: {
-        vj: root('vj4/ui'),
+        er: root('er/ui'),
       },
     },
     module: {
@@ -192,7 +192,7 @@ export default function (env = {}) {
         ,
 
       env.watch
-        ? new DummyOutputPlugin('vj4.css')
+        ? new DummyOutputPlugin('er.css')
         : extractProjectCSS
         ,
 
@@ -203,7 +203,7 @@ export default function (env = {}) {
             name: 'vendors',
             minChunks: (module, count) => (
               module.resource
-              && module.resource.indexOf(root('vj4/ui/')) === -1
+              && module.resource.indexOf(root('er/ui/')) === -1
               && module.resource.match(/\.jsx?$/)
             ),
           })
@@ -224,7 +224,7 @@ export default function (env = {}) {
       }),
 
       // copy static assets
-      new CopyWebpackPlugin([{ from: root('vj4/ui/static') }]),
+      new CopyWebpackPlugin([{ from: root('er/ui/static') }]),
 
       // copy emoji images
       new CopyWebpackPlugin([{ from: root('node_modules/emojify.js/dist/images/basic'), to: 'img/emoji/' }]),
@@ -239,7 +239,7 @@ export default function (env = {}) {
               require('rupture')(),
             ],
             import: [
-              '~vj/common/common.inc.styl',
+              '~er/common/common.inc.styl',
             ],
           },
         },
