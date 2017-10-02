@@ -1,9 +1,9 @@
 import React from 'react';
 import { connect } from 'react-redux';
 
-import request from 'vj/utils/request';
-import i18n from 'vj/utils/i18n';
-import Icon from 'vj/components/react/IconComponent';
+import request from 'er/utils/request';
+import i18n from 'er/utils/i18n';
+import Icon from 'er/components/react/IconComponent';
 import MessagePadDialogueList from './MessagePadDialogueListContainer';
 import MessagePadDialogueContent from './MessagePadDialogueContentContainer';
 import MessagePadInput from './MessagePadInputContainer';

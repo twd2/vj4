@@ -1,6 +1,6 @@
 import _ from 'lodash';
-import responsiveCutoff from 'vj/breakpoints.json';
-import { isBelow } from 'vj/utils/mediaQuery';
+import responsiveCutoff from 'er/breakpoints.json';
+import { isBelow } from 'er/utils/mediaQuery';
 
 class MultipleStateContainer {
   constructor(onStateChange, initialState = false) {

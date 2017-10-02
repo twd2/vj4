@@ -1,5 +1,5 @@
 import _ from 'lodash';
-import DOMAttachedObject from 'vj/components/DOMAttachedObject';
+import DOMAttachedObject from 'er/components/DOMAttachedObject';
 
 const TAB_TRANSITION_DURATION = 300;
 

@@ -1,5 +1,5 @@
-import tpl from 'vj/utils/tpl';
-import i18n from 'vj/utils/i18n';
+import tpl from 'er/utils/tpl';
+import i18n from 'er/utils/i18n';
 import DomDialog from './DomDialog';
 
 export default class Dialog {

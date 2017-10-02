@@ -10,8 +10,8 @@ import 'codemirror/mode/haskell/haskell';
 import 'codemirror/mode/javascript/javascript';
 import 'codemirror/mode/go/go';
 
-import request from 'vj/utils/request';
-import i18n from 'vj/utils/i18n';
+import request from 'er/utils/request';
+import i18n from 'er/utils/i18n';
 
 export default class VjCmEditor extends SimpleMDE {
   constructor(options = {}) {

@@ -1,6 +1,6 @@
-import Rotator from 'vj/components/rotator';
-import { AutoloadPage } from 'vj/misc/PageLoader';
-import request from 'vj/utils/request';
+import Rotator from 'er/components/rotator';
+import { AutoloadPage } from 'er/misc/PageLoader';
+import request from 'er/utils/request';
 
 function setVoteState($container, value, status) {
   const $num = $container.find('.vote-number');

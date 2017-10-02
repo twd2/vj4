@@ -1,14 +1,14 @@
 import 'jquery.easing';
 
-import { AutoloadPage } from 'vj/misc/PageLoader';
-import CommentBox from 'vj/components/discussion/CommentBox';
-import { ConfirmDialog } from 'vj/components/dialog';
+import { AutoloadPage } from 'er/misc/PageLoader';
+import CommentBox from 'er/components/discussion/CommentBox';
+import { ConfirmDialog } from 'er/components/dialog';
 
-import delay from 'vj/utils/delay';
-import { slideDown, slideUp } from 'vj/utils/slide';
-import request from 'vj/utils/request';
-import i18n from 'vj/utils/i18n';
-import tpl from 'vj/utils/tpl';
+import delay from 'er/utils/delay';
+import { slideDown, slideUp } from 'er/utils/slide';
+import request from 'er/utils/request';
+import i18n from 'er/utils/i18n';
+import tpl from 'er/utils/tpl';
 
 const $replyTemplate = $('.commentbox-container').eq(0).clone();
 

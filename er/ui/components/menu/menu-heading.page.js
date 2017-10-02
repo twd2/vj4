@@ -1,6 +1,6 @@
-import { AutoloadPage } from 'vj/misc/PageLoader';
+import { AutoloadPage } from 'er/misc/PageLoader';
 
-import tpl from 'vj/utils/tpl';
+import tpl from 'er/utils/tpl';
 
 const menuHeadingPage = new AutoloadPage('menuHeadingPage', null, () => {
   $('[data-heading-extract-to]').get().forEach((container) => {

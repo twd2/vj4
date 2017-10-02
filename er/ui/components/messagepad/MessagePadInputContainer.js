@@ -1,9 +1,9 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import classNames from 'classnames';
-import Icon from 'vj/components/react/IconComponent';
+import Icon from 'er/components/react/IconComponent';
 
-import request from 'vj/utils/request';
+import request from 'er/utils/request';
 
 const mapStateToProps = state => ({
   activeId: state.activeId,

@@ -1,5 +1,5 @@
 import _ from 'lodash';
-import Notification from 'vj/components/notification';
+import Notification from 'er/components/notification';
 
 export default function reducer(state = {}, action) {
   switch (action.type) {

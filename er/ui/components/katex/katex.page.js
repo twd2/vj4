@@ -1,4 +1,4 @@
-import { AutoloadPage } from 'vj/misc/PageLoader';
+import { AutoloadPage } from 'er/misc/PageLoader';
 
 import 'katex/dist/katex.min.css';
 import './katex.styl';

@@ -1,5 +1,5 @@
 import _ from 'lodash';
-import DOMAttachedObject from 'vj/components/DOMAttachedObject';
+import DOMAttachedObject from 'er/components/DOMAttachedObject';
 
 export default class CmEditor extends DOMAttachedObject {
   static DOMAttachKey = 'vjCmEditorInstance';

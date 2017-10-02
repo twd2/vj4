@@ -2,10 +2,10 @@ import _ from 'lodash';
 import React from 'react';
 import { connect } from 'react-redux';
 
-import i18n from 'vj/utils/i18n';
-import request from 'vj/utils/request';
-import * as languageEnum from 'vj/constant/language';
-import Icon from 'vj/components/react/IconComponent';
+import i18n from 'er/utils/i18n';
+import request from 'er/utils/request';
+import * as languageEnum from 'er/constant/language';
+import Icon from 'er/components/react/IconComponent';
 import Toolbar, {
   ToolbarItemComponent as ToolbarItem,
   ToolbarButtonComponent as ToolbarButton,

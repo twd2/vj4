@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 
-import i18n from 'vj/utils/i18n';
+import i18n from 'er/utils/i18n';
 import DataInput from './DataInputComponent';
 
 const mapStateToProps = state => ({

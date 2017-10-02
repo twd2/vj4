@@ -1,6 +1,6 @@
 import _ from 'lodash';
 import moment from 'moment';
-import tpl from 'vj/utils/tpl';
+import tpl from 'er/utils/tpl';
 
 export default class Calendar {
   constructor(events) {

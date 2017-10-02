@@ -1,7 +1,7 @@
 import _ from 'lodash';
-import tpl from 'vj/utils/tpl';
-import request from 'vj/utils/request';
-import DOMAttachedObject from 'vj/components/DOMAttachedObject';
+import tpl from 'er/utils/tpl';
+import request from 'er/utils/request';
+import DOMAttachedObject from 'er/components/DOMAttachedObject';
 import AutoComplete from '.';
 
 function getText(user) {

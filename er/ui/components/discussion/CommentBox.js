@@ -1,8 +1,8 @@
 import _ from 'lodash';
-import DOMAttachedObject from 'vj/components/DOMAttachedObject';
-import request from 'vj/utils/request';
-import TextareaHandler from 'vj/components/cmeditor/textareaHandler';
-import Notification from 'vj/components/notification';
+import DOMAttachedObject from 'er/components/DOMAttachedObject';
+import request from 'er/utils/request';
+import TextareaHandler from 'er/components/cmeditor/textareaHandler';
+import Notification from 'er/components/notification';
 
 let initialized = false;
 const $template = $('.dczcomments__box').eq(0).clone();

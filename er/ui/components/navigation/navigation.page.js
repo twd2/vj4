@@ -1,12 +1,12 @@
 import _ from 'lodash';
 import Slideout from 'slideout';
 
-import { AutoloadPage } from 'vj/misc/PageLoader';
-import request from 'vj/utils/request';
-import responsiveCutoff from 'vj/breakpoints.json';
+import { AutoloadPage } from 'er/misc/PageLoader';
+import request from 'er/utils/request';
+import responsiveCutoff from 'er/breakpoints.json';
 import Navigation from '.';
 
-import { isAbove } from 'vj/utils/mediaQuery';
+import { isAbove } from 'er/utils/mediaQuery';
 
 const nav = Navigation.instance;
 const $nav = nav.$nav;

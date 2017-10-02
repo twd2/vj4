@@ -1,6 +1,6 @@
 import Drop from 'tether-drop';
 import _ from 'lodash';
-import DOMAttachedObject from 'vj/components/DOMAttachedObject';
+import DOMAttachedObject from 'er/components/DOMAttachedObject';
 
 export default class Tooltip extends DOMAttachedObject {
   static DOMAttachKey = 'vjTooltipInstance';

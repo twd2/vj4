@@ -5,11 +5,11 @@ import TimeAgo from 'timeago-react';
 import moment from 'moment';
 import _ from 'lodash';
 
-import substitute from 'vj/utils/substitute';
-import emulateAnchorClick from 'vj/utils/emulateAnchorClick';
-import { parse as parseMongoId } from 'vj/utils/mongoId';
-import i18n from 'vj/utils/i18n';
-import * as recordEnum from 'vj/constant/record';
+import substitute from 'er/utils/substitute';
+import emulateAnchorClick from 'er/utils/emulateAnchorClick';
+import { parse as parseMongoId } from 'er/utils/mongoId';
+import i18n from 'er/utils/i18n';
+import * as recordEnum from 'er/constant/record';
 
 const shouldShowDetail = data =>
   recordEnum.STATUS_SCRATCHPAD_SHOW_DETAIL_FLAGS[data.status];

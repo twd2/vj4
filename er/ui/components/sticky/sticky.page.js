@@ -1,10 +1,10 @@
 import 'sticky-kit/dist/sticky-kit';
 import _ from 'lodash';
 
-import { AutoloadPage } from 'vj/misc/PageLoader';
-import Navigation from 'vj/components/navigation';
-import { isAbove } from 'vj/utils/mediaQuery';
-import responsiveCutoff from 'vj/breakpoints.json';
+import { AutoloadPage } from 'er/misc/PageLoader';
+import Navigation from 'er/components/navigation';
+import { isAbove } from 'er/utils/mediaQuery';
+import responsiveCutoff from 'er/breakpoints.json';
 
 function updateStickies($stickies) {
   $stickies.get().forEach((element) => {

@@ -24,8 +24,8 @@ import 'prismjs/plugins/toolbar/prism-toolbar';
 import 'prismjs/plugins/line-numbers/prism-line-numbers';
 
 import Clipboard from 'clipboard';
-import Notification from 'vj/components/notification';
-import i18n from 'vj/utils/i18n';
+import Notification from 'er/components/notification';
+import i18n from 'er/utils/i18n';
 
 import languageMeta from './meta';
 

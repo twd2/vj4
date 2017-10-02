@@ -1,5 +1,5 @@
-import tpl from 'vj/utils/tpl';
-import zIndexManager from 'vj/utils/zIndexManager';
+import tpl from 'er/utils/tpl';
+import zIndexManager from 'er/utils/zIndexManager';
 
 let lastNotification = null;
 let autoHideTimer = null;

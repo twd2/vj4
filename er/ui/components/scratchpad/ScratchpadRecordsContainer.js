@@ -4,9 +4,9 @@ import Tabs, { TabPane } from 'rc-tabs';
 import TabContent from 'rc-tabs/lib/TabContent';
 import ScrollableInkTabBar from 'rc-tabs/lib/ScrollableInkTabBar';
 
-import i18n from 'vj/utils/i18n';
-import request from 'vj/utils/request';
-import Icon from 'vj/components/react/IconComponent';
+import i18n from 'er/utils/i18n';
+import request from 'er/utils/request';
+import Icon from 'er/components/react/IconComponent';
 import Panel from './PanelComponent';
 import PanelButton from './PanelButtonComponent';
 import ScratchpadRecordsTable from './ScratchpadRecordsTableContainer';

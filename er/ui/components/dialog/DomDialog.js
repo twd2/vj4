@@ -1,7 +1,7 @@
 import _ from 'lodash';
-import DOMAttachedObject from 'vj/components/DOMAttachedObject';
+import DOMAttachedObject from 'er/components/DOMAttachedObject';
 
-import zIndexManager from 'vj/utils/zIndexManager';
+import zIndexManager from 'er/utils/zIndexManager';
 
 export default class DomDialog extends DOMAttachedObject {
   static DOMAttachKey = 'vjDomDialogInstance';

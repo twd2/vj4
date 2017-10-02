@@ -1,6 +1,6 @@
 import _ from 'lodash';
-import DOMAttachedObject from 'vj/components/DOMAttachedObject';
-import delay from 'vj/utils/delay';
+import DOMAttachedObject from 'er/components/DOMAttachedObject';
+import delay from 'er/utils/delay';
 
 const ANIMATION_DURATION = 4000;
 

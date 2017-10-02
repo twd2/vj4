@@ -1,4 +1,4 @@
-import { AutoloadPage } from 'vj/misc/PageLoader';
+import { AutoloadPage } from 'er/misc/PageLoader';
 import StyledTable from './StyledTable';
 
 const styledTablePage = new AutoloadPage('styledTablePage', () => {

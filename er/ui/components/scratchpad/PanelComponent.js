@@ -1,6 +1,6 @@
 import React from 'react';
 import classNames from 'classnames';
-import SplitPaneFillOverlay from 'vj/components/react-splitpane/SplitPaneFillOverlayComponent';
+import SplitPaneFillOverlay from 'er/components/react-splitpane/SplitPaneFillOverlayComponent';
 
 export default function PanelComponent(props) {
   const {

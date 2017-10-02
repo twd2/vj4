@@ -1,8 +1,8 @@
 import timeagoFactory from 'timeago.js';
 
-import { AutoloadPage } from 'vj/misc/PageLoader';
+import { AutoloadPage } from 'er/misc/PageLoader';
 
-import i18n from 'vj/utils/i18n';
+import i18n from 'er/utils/i18n';
 
 const timeago = timeagoFactory();
 timeago.setLocale(i18n('timeago_locale'));

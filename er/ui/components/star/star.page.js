@@ -1,5 +1,5 @@
-import { AutoloadPage } from 'vj/misc/PageLoader';
-import request from 'vj/utils/request';
+import { AutoloadPage } from 'er/misc/PageLoader';
+import request from 'er/utils/request';
 
 function setStarButtonState($starButton, star) {
   if (star) {

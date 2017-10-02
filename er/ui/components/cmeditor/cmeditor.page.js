@@ -1,5 +1,5 @@
-import { AutoloadPage } from 'vj/misc/PageLoader';
-import delay from 'vj/utils/delay';
+import { AutoloadPage } from 'er/misc/PageLoader';
+import delay from 'er/utils/delay';
 import CmEditor from '.';
 
 import 'vj-simplemde/src/css/simplemde.css';

@@ -1,7 +1,7 @@
-import { AutoloadPage } from 'vj/misc/PageLoader';
-import DomDialog from 'vj/components/dialog/DomDialog';
-import responsiveCutoff from 'vj/breakpoints.json';
-import { isAbove } from 'vj/utils/mediaQuery';
+import { AutoloadPage } from 'er/misc/PageLoader';
+import DomDialog from 'er/components/dialog/DomDialog';
+import responsiveCutoff from 'er/breakpoints.json';
+import { isAbove } from 'er/utils/mediaQuery';
 
 const signinDialogPage = new AutoloadPage('signinDialogPage', null, () => {
   const signInDialog = DomDialog.getOrConstruct($('.dialog--signin'), {
